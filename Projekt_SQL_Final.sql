@@ -258,7 +258,6 @@ LEFT JOIN weather_2 w
 	AND s.date = w.date
 	
 select * from t_jiri_drahotsky_projekt_SQL_final
-where country = "Czechia"
 
 
 drop TABLE countries_2;
@@ -269,4 +268,4 @@ DROP TABLE zakladni;
 DROP TABLE staty;
 DROP TABLE pocasi;
 DROP table weather_2;
-DROP table t_jiri_drahotsky_projekt_SQL_final
+
